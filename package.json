@@ -1,0 +1,24 @@
+{
+  "name": "testme",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "module.js",
+  "scripts": {
+    "test": "npm run tsc && jest build/",
+    "tsc": "tsc --build --clean --pretty && tsc --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-syntax-import-assertions": "^7.18.6",
+    "@babel/plugin-transform-modules-commonjs": "^7.18.6",
+    "@babel/preset-env": "^7.19.3",
+    "@babel/preset-typescript": "^7.18.6",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.1.1"
+  }
+}
